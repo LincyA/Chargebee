@@ -22,7 +22,7 @@ for(int i=0;i<ar.length;i++)
 {
 for(int j=i+1;j<ar.length-1;j++)
 {
-if(Integer.bitCount(ar[i])>Integer.bitCount(ar[j])) 
+if(Integer.bitCount(ar[i])<Integer.bitCount(ar[j])) 
 {
 temp =  arr[i];
 arr[i] = arr[j];
